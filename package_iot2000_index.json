@@ -6,10 +6,10 @@
       "websiteURL": "http://w3.siemens.com/mcms/pc-based-automation/en/industrial-iot/Pages/Default.aspx",
       "platforms": [
         {
+          "category": "Contributed",
           "name": "Simatic IOT2000 Devices",
           "architecture": "iot2000",
           "version": "1.0.1",
-          "category": "Contributed",
           "help": {
             "online": "https://support.industry.siemens.com/tf/ww/en/conf/60/"
           },
@@ -18,8 +18,12 @@
           "checksum": "SHA-256:0fa5c0cb72dff7a472198f489babbd8c6959d445d0007181f97f26bfd0f3ca20",
           "size": "423626",
           "boards": [
-            { "name": "Simatic IOT2000" },
-            { "name": "Simatic IOT2000 Net" }
+            { 
+              "name": "Simatic IOT2000" 
+            },
+            {
+              "name": "Simatic IOT2000 Net" 
+            }
           ],
           "toolsDependencies": [
             {
